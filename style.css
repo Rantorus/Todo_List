@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(110deg, #cdcf44, #8d1bb0);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #444;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    min-height: 400px; /* Başlangıç yüksekliği */
+    width: 50%;
+    margin: auto;
+    transition: all 0.3s ease-in-out; /* Yumuşak geçiş efekti */
+
+    padding: 5px;
+    height: auto; /* Dinamik yükseklik */
+    width:80%;
+    border: 2px solid black;
+}
+.container-first{
+    display: flex;
+    flex-direction: column; /* Yüksekliğe göre sıralama */
+    justify-content: center;  /* Yatayda ortalama */
+    align-items: center;      /* Dikeyde ortalama */
+    margin: 2px;
+    padding: 5px;
+    height: 35%;
+    
+    border: 1px solid black;
+}
+.container-second{
+    
+    position: relative;
+    margin: 2px;
+    padding: 5px;
+    min-height: 200px; /* Minimum yükseklik */
+    height: auto; /* Dinamik yükseklik */
+    align-items: center;
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
+}
+h4{
+    color: rgb(8, 5, 37);
+    margin-bottom: 25px;
+}
+.text-box{
+    border-radius: 5px;
+    width: 50%;
+    margin : 15px;
+}
+button{
+    align-items: center;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background-color: #218838;
+    transform: scale(1.1);
+    color:black;
+}
+.list-group{
+    margin-top: 20px;
+    max-height: none;
+    overflow: visible;
+}
+.list-group-item{
+    background-color: #b2c8c5;
+    margin: 2px;
+}
